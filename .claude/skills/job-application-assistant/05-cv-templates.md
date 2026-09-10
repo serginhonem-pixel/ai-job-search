@@ -115,12 +115,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Coordenador/Gerente de PCP roles:**
+> Profissional com sólida experiência em Planejamento e Controle de Produção (PCP), especializado em otimização de processos industriais e automação de indicadores através de ferramentas próprias (JavaScript, Power BI). Histórico comprovado de redução de custos e desperdício (ex: -20% de sucata via otimizador de corte), integração EDI com fornecedores siderúrgicos e implantação de painéis que reduziram o tempo de resposta comercial-produção de dias para horas. Combina visão analítica de dados com atuação prática no chão de fábrica para entregar cadeias de suprimento mais previsíveis.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Coordenador/Gerente de Produção ou Industrial roles:**
+> Coordenador com experiência em gestão de operações industriais, liderança de equipes de até 40 colaboradores e implantação de sistemas de manutenção e KPIs que reduziram o tempo médio de atendimento em até 70%. Une conhecimento prático de chão de fábrica com habilidade de programação para automatizar relatórios e eliminar trabalho manual, entregando ganhos mensuráveis em eficiência, segurança e produtividade.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

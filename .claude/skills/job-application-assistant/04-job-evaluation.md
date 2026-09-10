@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** PCP e Planejamento da Produção (MRP, S&OP), Otimização de Processos Industriais (Cutting Stock), Gestão de KPIs e painéis (Power BI), ERPs (TOTVS Protheus, Sankhya, SAP, Primus, Sagram)
+**Moderate match areas:** JavaScript/automação de ferramentas internas, Supply Chain Management, Gestão de Frota e Manutenção Industrial
+**Weak match areas:** Programação além de JavaScript (sem stack de desenvolvimento formal), inglês além de nível conversacional (B1/B2)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -74,9 +74,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Coordenação/Gerência de PCP, Planejamento de Produção, Otimização de Processos Industriais, Supply Chain
+**Moderate:** Logística, Coordenação de Frota e Manutenção, Liderança de equipes de produção
+**Entry-level:** N/A - candidato já em posições de coordenação
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,10 +91,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
+Candidate has no location constraint (see CLAUDE.md Identity): remote, hybrid, on-site, or relocation are all acceptable.
 - Within commute range: PASS
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Requires relocation: PASS (no location constraint stated)
 - Frequent international travel: FLAG (discuss with user)
+- **Salary deal-breaker:** if the posting states a salary below R$ 7.000,00, treat as FAIL regardless of other scores (see CLAUDE.md Deal-breakers)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -107,19 +109,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Avançar para posições de Coordenador ou Gerente de PCP, Produção ou Industrial
+- Aplicar otimização de processos e redução de custos em escala cada vez maior
+- Expandir a automação de indicadores e painéis orientados a dados (Power BI, integrações de sistemas)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Otimização de processos, redução de custos, automação de indicadores/painéis, projetos de dados e BI, integração de sistemas (EDI/ERP)
+- Tasks that drain: Trabalho puramente manual e repetitivo sem espaço para melhoria, ambientes sem ERP/estrutura de dados
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Empregado atualmente (Coordenador de PCP na Metalosa); salário mínimo aceitável de R$ 7.000,00 (deal-breaker abaixo desse piso)
+- **Flexibility**: Sem restrição de localização - aberto a remoto, híbrido, presencial ou relocação
+- **Professional development**: Busca crescimento para cargos de coordenação/gerência em PCP, Produção ou Industrial
 
 ### 6. Salary Benchmark (Optional)
 

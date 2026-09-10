@@ -1,73 +1,113 @@
 ---
-framework_version: 1.1.1
+framework_version: 1.3.0
 ---
 
 # Candidate Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all sections will be filled with your actual information -->
-
 ## Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_ADDRESS]
-- **Phone:** [YOUR_PHONE]
-- **Email:** [YOUR_EMAIL]
-- **LinkedIn:** [YOUR_LINKEDIN_URL]
+- **Name:** Sergio Betini
+- **Location:** Colatina, ES, Brasil
+- **Phone:** (27) 99783-6020
+- **Email:** sergiobetinim@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/sergio-betini/
 - **GitHub:** [YOUR_GITHUB_URL]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **Status:** Empregado (Coordenador de PCP na Metalosa)
+- **Constraints:** Sem restrições informadas
 
 ### Languages
-<!-- Every language you can work in professionally, with your honest level. Used by the
-Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
-generation. Omit any language you don't actually work in - an undeclared language is treated as
-a hard no, not a gap to smooth over. -->
 
 | Language | Level | Notes |
 |----------|-------|-------|
-| [LANGUAGE] | [LEVEL, e.g. "Native" / "C2" / "B1/B2 (conversational)"] | [optional] |
+| Português | Native | Idioma materno |
+| Inglês | B2 (conversational) | Intermediário |
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
+| MBA em Gestão Operacional e Logística Empresarial | 2024 - 2024 | UNOPAR | Logística empresarial, gestão de operações |
+| MBA em Estratégias de Negócios, Competitividade e Produtividade | 2023 - 2024 | UNOPAR | Estratégia, competitividade e produtividade industrial |
+| Bacharelado em Administração | 01/2020 - 12/2023 | UNOPAR | Administração de empresas |
 
 ## Professional Experience
 
-### [JOB_TITLE] - [COMPANY] ([START] - [END])
-[LOCATION]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
+### Coordenador de PCP - Metalosa (out/2025 - atual)
+Colatina, ES, Brasil
+- Criei otimizador de corte (Cutting Stock) para o processo de Slitter, reduzindo em 20% a geração de sucata, equivalente a ~R$34.000,00 em matéria-prima economizada.
+- Desenvolvi simulador de estoque com integração EDI a fornecedores siderúrgicos (Usiminas), projetando ruptura e cobertura em tempo real e reduzindo em 100% a ruptura por falta de previsão.
+- Implantei painel Comercial-PCP que centralizou solicitações de 6 pessoas reduzindo o tempo de resposta entre comercial e produção de 2 dias para 2 horas.
+- Automatizei a atualização de painéis via exportação agendada do ERP, eliminando o trabalho manual de atualização de planilhas.
+- Criei sistema de gestão de manutenção com abertura de OS pela produção, reduzindo o tempo médio de atendimento em 70%.
 
-<!-- Add more roles as needed -->
+### Supervisor de Logística - Unimarka (mai/2025 - out/2025)
+Colatina, ES, Brasil
+- Supervisionei operação de CD com equipe de 40 colaboradores, mantendo o atendimento no prazo.
+- Reduzi retrabalho de separação em 33% através de balanceamento de equipe e monitoramento diário de KPIs (volume separado, tempo de separação).
+
+### Coordenador de Frota e Manutenção - Distribuidora Caite (jul/2024 - mai/2025)
+Colatina, ES, Brasil
+- Fui responsável pelo transporte de mercadorias das fábricas da AMBEV para a revenda, priorizando pontualidade, segurança e qualidade no serviço.
+- Renegociei fornecedores de insumos operacionais, reduzindo o custo do gás GLP em 34% (R$ 8,75 -> R$ 5,75/unidade) e do sabão industrial em 78% (R$ 3.200 -> R$ 700/mês).
+- Implantei plano de manutenção preventiva com telemetria e checklists diários, reduzindo em 28% os custos de manutenção.
+- Antecipei renegociação de contratos de diesel antes de reajustes de mercado, evitando um aumento de custo de aproximadamente R$ 0,56 p/l.
+
+### Analista de PCP Sênior - Emerick Stones (fev/2024 - jul/2024)
+Colatina, ES, Brasil
+- Analisei custos produtivos e identifiquei oportunidades de redução.
+- Redesenhei a lógica de programação da fábrica, aumentando a eficiência e reduzindo desperdício de matéria-prima.
+- Conduzi a implantação do ERP Sagram, migrando todo o módulo de produção sem interrupção de produção.
+
+### Analista de PPCP - Grupo Bertolini (BMA) (jun/2023 - fev/2024)
+Colatina, ES, Brasil
+- Liderei o planejamento na transição do modelo produtivo de make-to-order para make-to-stock, reduzindo o lead time de entrega de no mínimo 70 dias para 14 dias em todo o Brasil.
+- Geri demandas comerciais e distribuição de ordens para a fábrica, mantendo aderência ao plano de produção em 100%.
+- Facilitei reuniões de S&OP entre vendas, produção, logística e finanças, com relato direto ao CEO.
+- Acompanhei a implantação de um sistema MES (Manufatura) como Key User.
+
+### Assistente de PCP - Grupo Bertolini (BMA) (ago/2022 - jun/2023)
+Colatina, ES, Brasil
+- Criei e implantei o planejamento de expedição (logística, itinerários, gestão de recursos), reduzindo riscos de ruptura na cadeia de suprimentos.
+- Geri faturamento e carregamento por rota, otimizando custos de transporte.
+
+### Líder de Equipe - Grupo Bertolini (BMA) (set/2015 - ago/2022)
+Colatina, ES, Brasil
+- Liderei equipe de 40 no setor de transformação por 6 anos, com foco em segurança, qualidade e produtividade.
+
+### Notas de Transição de Carreira
+<!-- Motivos reais de saída, para uso honesto em entrevistas (nunca inventar um motivo genérico). -->
+- **Saída da Bertolini (fev/2024):** busquei crescimento que não estava disponível lá naquele momento.
+- **Saída da Metalosa (candidatura em curso, ago/2026, ~10 meses de casa):** não é insatisfação com a Metalosa; é a oportunidade específica de voltar à Bertolini, empresa onde comecei a carreira em PCP, que se apresentou boa demais para deixar passar.
 
 ## Independent Projects
-<!-- Projects outside of employment: freelance, open source, personal -->
-- **[PROJECT_NAME]**: [DESCRIPTION]
+- **QtdApp** (qtdapp.vercel.app): Aplicativo em JavaScript para contagem e controle de inventário, com integração a planilhas Excel, etiquetas personalizadas e leitura por QR Code. Já comercializado, com vendas realizadas.
 
 ## Technical Skills
 
 ### Programming & ML
-- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
-- [OTHER_SKILLS]
+- **JavaScript** (Proficiente): Desenvolvimento de ferramentas internas, automação e integrações.
+- **Power BI**: Criação de painéis dinâmicos e painéis comerciais integrados a ERPs.
 
 ### Domain Expertise
-- [DOMAIN_1]
-- [DOMAIN_2]
+- PCP e Planejamento da Produção (MRP, S&OP)
+- Supply Chain Management & Gestão de Estoques
+- Integração EDI (Fornecedores siderúrgicos)
+- Otimização de Processos Industriais (Cutting Stock / Otimizador de corte)
+- Gestão de KPIs, Frota e Manutenção Industrial
 
 ### Software & Tools
-- [TOOL_LIST]
+- ERPs: TOTVS Protheus, Sankhya, SAP, Primus e Sagram.
+- Ferramentas de Dados: Power BI, Excel Avançado e Automação de Processos.
+
+## Certifications
+- Certificação em Power BI - Alura
+- Certificação em Excel VBA - Alura
+- Certificação em Excel - Alura
 
 ## Publications
-<!-- List peer-reviewed publications, if any -->
-1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
+*Nenhuma publicação listada.*
 
 ## Awards
-- [AWARD] - [EVENT] ([YEAR])
+*Nenhum prêmio listado.*
 
 ## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
-
-More references available upon request.
+Referências disponíveis mediante solicitação.

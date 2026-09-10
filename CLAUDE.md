@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Sergio Betini
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Sergio Betini, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +10,98 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Sergio Betini
+- **Location:** Colatina, ES, Brasil (sem restrições de localização - aberto a remoto, híbrido ou presencial, incluindo relocação)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | Português | Native |
+  | Inglês | B2 (conversacional) |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** Português
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Empregado (Coordenador de PCP na Metalosa)
+- **LinkedIn headline:** "Coordenador de PCP | Planejamento de Produção, Otimização de Processos e Automação de Dados"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MBA em Estratégias de Negócios, Competitividade e Produtividade** (2023-2024) - UNOPAR
+  - Topics: Estratégia, competitividade e produtividade industrial
+- **MBA em Gestão Operacional e Logística Empresarial** (2024) - UNOPAR
+  - Topics: Logística empresarial, gestão de operações
+- **Bacharelado em Administração** (01/2020-12/2023) - UNOPAR
+  - Topics: Administração de empresas
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Coordenador de PCP** (out/2025 - atual) - **Metalosa** (Colatina, ES, Brasil)
+  - Criou otimizador de corte (Cutting Stock) para o processo de Slitter, reduzindo em 20% a geração de sucata (~R$34.000,00 em matéria-prima economizada)
+  - Desenvolveu simulador de estoque com integração EDI a fornecedores siderúrgicos (Usiminas), eliminando 100% da ruptura por falta de previsão
+  - Implantou painel Comercial-PCP reduzindo o tempo de resposta entre comercial e produção de 2 dias para 2 horas
+  - Criou sistema de gestão de manutenção com abertura de OS pela produção, reduzindo o tempo médio de atendimento em 70%
+- **Supervisor de Logística** (mai/2025 - out/2025) - **Unimarka** (Colatina, ES, Brasil)
+  - Supervisionou operação de CD com equipe de 40 colaboradores, mantendo o atendimento no prazo
+  - Reduziu retrabalho de separação em 33% via balanceamento de equipe e monitoramento diário de KPIs
+- **Coordenador de Frota e Manutenção** (jul/2024 - mai/2025) - **Distribuidora Caite** (Colatina, ES, Brasil)
+  - Responsável pelo transporte de mercadorias das fábricas da AMBEV para a revenda, priorizando pontualidade, segurança e qualidade no serviço
+  - Renegociou fornecedores, reduzindo o custo do GLP em 34% e do sabão industrial em 78%
+  - Implantou plano de manutenção preventiva com telemetria, reduzindo custos de manutenção em 28%
+- **Analista de PCP Sênior** (fev/2024 - jul/2024) - **Emerick Stones** (Colatina, ES, Brasil)
+  - Redesenhou a lógica de programação da fábrica, aumentando eficiência e reduzindo desperdício
+  - Conduziu a implantação do módulo de produção do ERP Sagram sem interrupção da produção
+- **Analista de PPCP** (jun/2023 - fev/2024) - **Grupo Bertolini (BMA)** (Colatina, ES, Brasil)
+  - Liderou a transição de make-to-order para make-to-stock, reduzindo o lead time de 70 para 14 dias em todo o Brasil
+  - Manteve aderência ao plano de produção em 100% na gestão de demandas comerciais
+  - Facilitou reuniões de S&OP entre vendas, produção, logística e finanças, com relato direto ao CEO
+  - Liderou como Key User a implantação de um sistema MES (Manufatura)
+- **Assistente de PCP** (ago/2022 - jun/2023) - **Grupo Bertolini (BMA)** (Colatina, ES, Brasil)
+  - Criou e implantou o planejamento de expedição (logística, itinerários, gestão de recursos)
+  - Geriu faturamento e carregamento por rota, otimizando custos de transporte
+- **Líder de Equipe** (set/2015 - ago/2022) - **Grupo Bertolini (BMA)** (Colatina, ES, Brasil)
+  - Liderou equipe de 40 pessoas no setor de transformação por 6 anos, com foco em segurança, qualidade e produtividade
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** PCP e Planejamento da Produção (MRP, S&OP), Otimização de Processos Industriais (Cutting Stock), JavaScript
+- **Secondary:** Power BI, Supply Chain Management, Gestão de KPIs e Frota/Manutenção Industrial
+- **Domain:** Indústria/Manufatura, Logística, Integração EDI com fornecedores siderúrgicos
+- **Software:** TOTVS Protheus, Sankhya, SAP, Primus, Sagram, Power BI, Excel Avançado
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- Certificação em Power BI - Alura
+- Certificação em Excel VBA - Alura
+- Certificação em Excel - Alura
+
+### Projects
+- **QtdApp** (`qtdapp.vercel.app`) - Aplicativo próprio em JavaScript para contagem e controle de inventário, com integração a planilhas Excel, etiquetas personalizadas e leitura por QR Code. Criado a partir de uma necessidade real em operações industriais, logísticas e de manutenção; **já comercializado, com vendas realizadas**.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+*Nenhuma publicação listada.*
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+*Nenhum prêmio listado.*
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Analytical Thinking (Very High)** - Aborda problemas via dados e otimização matemática (ex: Cutting Stock)
+- **Process Orientation (Very High)** - Foco em estruturar fluxos de trabalho, integrações EDI e transições de estratégia produtiva
+- **Strengths:** Inovador pragmático (combina conhecimento de chão de fábrica com programação), otimizador focado em custos, ponte entre comercial e produção
+- **Growth areas:** Tendência a construir soluções próprias antes de adotar sistemas corporativos existentes; pode se sentir limitado em ambientes sem maturidade de dados
+- **Thrives in:** Ambientes orientados a dados e KPIs, alta autonomia (inclusive remoto/híbrido), operações complexas com múltiplas variáveis
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Otimizar processos e reduzir custos operacionais
+- Automatizar indicadores e painéis com dados (Power BI, integrações de sistemas)
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Indústria/Manufatura: PCP, Produção, Operações Industriais
+- Logística/Supply Chain: Planejamento, Frota e Manutenção
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Salário mínimo de R$ 7.000,00 - não considerar vagas com remuneração inferior a esse piso
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

@@ -1,81 +1,90 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
-
 ## Installed portal CLIs (primary for `/scrape`)
 
-`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
+`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos (`jobbank-search`, `jobdanmark-search`, `jobindex-search`, `jobnet-search`) are also installed but are Denmark-only and not relevant to this candidate's Brazil-focused search. No Brazilian portal CLI is installed yet — consider `/add-portal` for a board like Catho, Vagas.com, Gupy, or InfoJobs. You do **not** need a matching `site:` line below for a CLI to run.
 
 The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
 
-**Language scope:** write every query category in every language listed in your CLAUDE.md Languages table (typically 1-2, sometimes more). A posting requiring a language you have *not* declared, as a job condition, is excluded before scoring; a posting requiring a *higher level* than you declared in a language you *do* work in is flagged for your own judgment, not excluded — see `04-job-evaluation.md`'s Language Gate, the single source of truth for this rule. Translate each category's keywords rather than machine-translating word-for-word (e.g. "Frontend Developer" -> "Desarrollador Frontend", not a literal word-for-word translation) if you work in more than one language.
+**Language scope:** candidate's Languages table (CLAUDE.md) is Português (Native) and Inglês (B1/B2). Queries are written primarily in Portuguese, matching the target market (Brazil); a few English variants are included for broader-net LinkedIn/remote searches, since the CV language is Portuguese but English postings at a conversational level still pass the Language Gate.
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary (candidate's market - scaffold a CLI with `/add-portal`):
+- **vagas.com.br** - large Brazilian general job board (WebSearch fallback until a CLI exists)
+- **catho.com.br** - large Brazilian general job board (WebSearch fallback until a CLI exists)
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Brasil); also covered by the `linkedin-search` CLI
+- **infojobs.com.br** - Brazilian job board, strong for industrial/operations roles (WebSearch fallback)
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for known target companies (none specified yet - ask the candidate if they want specific companies monitored)
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Combine each query with location terms where the site supports it — but per the Location Filter below, this candidate has no location constraint, so location terms are optional/broadening rather than restrictive.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Coordenação/Gerência de PCP
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match the candidate's strongest and most desired career direction.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:vagas.com.br "Coordenador de PCP" Brasil
+site:vagas.com.br "Gerente de PCP" Brasil
+site:linkedin.com/jobs "Coordenador de PCP" Brasil
+site:linkedin.com/jobs "Gerente de PCP" Brasil
+"Coordenador de PCP" Brasil OR remoto OR "home office"
+"Gerente de PCP" Brasil OR remoto OR "home office"
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Coordenação/Gerência de Produção ou Industrial
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match the candidate's domain expertise in production/industrial operations.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:vagas.com.br "Coordenador de Produção" Brasil
+site:vagas.com.br "Gerente de Produção" Brasil
+site:catho.com.br "Coordenador Industrial" Brasil
+site:linkedin.com/jobs "Coordenador de Produção" Brasil
+site:linkedin.com/jobs "Gerente de Produção" Brasil
+```
+
+### Priority 3: Supply Chain / Planejamento (adjacent roles)
+
+Adjacent roles the candidate could pivot into, drawing on PCP, planning, and logistics experience.
+
+```
+site:vagas.com.br "Coordenador de Supply Chain" Brasil
+site:linkedin.com/jobs "Coordenador de Supply Chain" Brasil
+site:infojobs.com.br "Analista de Planejamento" Sênior Brasil
+"Coordenador de Logística" PCP OR planejamento Brasil
+```
+
+### Priority 4: Broader PCP / Operations / Automation (wider net)
+
+Wider net for planning/production roles, including English-language postings for remote/multinational companies.
+
+```
+"Planejamento e Controle de Produção" vaga Brasil
+site:linkedin.com/jobs "Production Planning" Manager OR Coordinator Brazil OR remote
+site:linkedin.com/jobs "Production Coordinator" OR "Production Manager" Brazil
+"PCP" automação OR "Power BI" coordenação OR gerência Brasil
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+The candidate has **no location constraint** (see CLAUDE.md Identity / Deal-breakers): remote, hybrid, on-site, and relocation are all acceptable. Do not filter out results by distance from Colatina, ES. Note the modality (remote/hybrid/on-site) and city in the results table so the candidate can judge each on its own merits, but do not exclude on location grounds.
+
+## Salary Filter
+
+Deal-breaker per CLAUDE.md: minimum salary **R$ 7.000,00**. When a posting states a salary below this, flag it clearly (do not silently exclude — some postings omit salary and only reveal it later, and the candidate may still want visibility). When no salary is stated, include normally and note "salary not disclosed".
+
+## Seniority Filter
+
+Target seniority: Pleno, Sênior, Coordenação, Gerência. Exclude: Estágio, Trainee, Assistente de PCP, Auxiliar de Produção, Operador de Máquinas (these are below the candidate's current level).
 
 ## Language Filter
 
-Your working languages and levels are in CLAUDE.md's Languages table. When filtering scraped results, apply `04-job-evaluation.md`'s Language Gate: a posting requiring a language you haven't declared at all is excluded; a posting requiring a higher level than you declared in a language you do work in is not excluded, flag it clearly instead (see `job-scraper/SKILL.md`'s Step 3 "Quick Fit Assessment" for how the flag surfaces in `/scrape` output). Postings simply *written* in a language you don't work in, that don't require it on the job, are fine.
+Candidate's working languages and levels are in CLAUDE.md's Languages table (Português - Native, Inglês - B1/B2). Apply `04-job-evaluation.md`'s Language Gate: a posting requiring a language not declared at all is excluded; a posting requiring a higher level than declared in a language the candidate does work in is not excluded, flag it clearly instead (see `job-scraper/SKILL.md`'s Step 3 "Quick Fit Assessment" for how the flag surfaces in `/scrape` output). Postings simply *written* in a language the candidate doesn't work in, that don't require it on the job, are fine.
 
 ## Date Filter
 
@@ -84,4 +93,4 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 ## Adapting Queries
 
 If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+- "/scrape supply chain" -> Priority 3 queries + custom Supply Chain-specific queries

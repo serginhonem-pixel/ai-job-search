@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Sergio Betini
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Sergio Betini - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Sergio}{Betini}
+\address{Colatina, ES, Brasil}{}{}
+\phone[mobile]{(27) 99783-6020}
+\email{sergiobetinim@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/sergio-betini/}{LinkedIn}}
 
 \begin{document}
 
@@ -46,25 +45,25 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Coordenador de PCP com histórico consistente em Planejamento e Controle de Produção, Supply Chain e Otimização de Processos Industriais. Combina visão analítica de dados com atuação prática no chão de fábrica, desenvolvendo ferramentas próprias (JavaScript, Power BI) para automatizar indicadores, reduzir custos e eliminar rupturas na cadeia de suprimentos. Experiência consolidada na gestão de equipes de até 40 pessoas e em ERPs industriais (TOTVS Protheus, Sankhya, SAP).}
 
 % ============================================================
 %     CORE COMPETENCIES
 % ============================================================
 
-\section{Core Competencies}
+\section{Competências Principais}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{PCP e Planejamento da Produção}: MRP, S\&OP, programação de fábrica, transição make-to-order / make-to-stock.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Otimização de Processos Industriais}: Desenvolvimento de otimizador de corte (Cutting Stock), redução de desperdício e sucata.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Business Intelligence \& Automação de Dados}: Power BI, JavaScript, integração EDI com fornecedores, automação de painéis e relatórios.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Gestão de ERP}: TOTVS Protheus, Sankhya, SAP, Primus, Sagram.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Liderança e Gestão de KPIs}: Liderança de equipes de até 40 colaboradores, gestão de frota e manutenção industrial.
 
 \end{itemize}
 
@@ -72,36 +71,62 @@
 %     PROFESSIONAL EXPERIENCE
 % ============================================================
 
-\section{Professional Experience}
+\section{Experiência Profissional}
 \vspace{3pt}
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Out 2025-Presente}{Coordenador de PCP}{Metalosa}{Colatina, ES, Brasil}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Criou otimizador de corte (Cutting Stock) para o processo de Slitter, reduzindo em 20\% a geração de sucata, equivalente a ~R\$34.000,00 em matéria-prima economizada
+    \item Desenvolveu simulador de estoque com integração EDI a fornecedores siderúrgicos (Usiminas), eliminando 100\% da ruptura por falta de previsão
+    \item Implantou painel Comercial-PCP que centralizou solicitações de 6 pessoas, reduzindo o tempo de resposta entre comercial e produção de 2 dias para 2 horas
+    \item Automatizou a atualização de painéis via exportação agendada do ERP, eliminando o trabalho manual de atualização de planilhas
+    \item Criou sistema de gestão de manutenção com abertura de OS pela produção, reduzindo o tempo médio de atendimento em 70\%
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Mai 2025-Out 2025}{Supervisor de Logística}{Unimarka}{Colatina, ES, Brasil}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Supervisionou operação de CD com equipe de 40 colaboradores, mantendo o atendimento no prazo
+    \item Reduziu retrabalho de separação em 33\% através de balanceamento de equipe e monitoramento diário de KPIs (volume separado, tempo de separação)
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jul 2024-Mai 2025}{Coordenador de Frota e Manutenção}{Distribuidora Caite}{Colatina, ES, Brasil}{}{\vspace{1pt}
+\begin{itemize}
+    \item Renegociou fornecedores de insumos operacionais, reduzindo o custo do gás GLP em 34\% (R\$ 8,75 -> R\$ 5,75/unidade) e do sabão industrial em 78\% (R\$ 3.200 -> R\$ 700/mês)
+    \item Implantou plano de manutenção preventiva com telemetria e checklists diários, reduzindo em 28\% os custos de manutenção
+    \item Antecipou renegociação de contratos de diesel antes de reajustes de mercado, evitando um aumento de custo de aproximadamente R\$ 0,56 p/l
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Fev 2024-Jul 2024}{Analista de PCP Sênior}{Emerick Stones}{Colatina, ES, Brasil}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Analisou custos produtivos e identificou oportunidades de redução
+    \item Redesenhou a lógica de programação da fábrica, aumentando a eficiência e reduzindo desperdício de matéria-prima
+    \item Conduziu a implantação do ERP Sagram, migrando todo o módulo de produção sem interrupção de produção
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2022-Fev 2024}{Analista de Planejamento}{Grupo Bertolini}{Colatina, ES, Brasil}{}{\vspace{1pt}
+\begin{itemize}
+    \item Liderou o planejamento na transição do modelo produtivo de make-to-order para make-to-stock, reduzindo o lead time de entrega de no mínimo 70 dias para 14 dias em todo o Brasil
+    \item Geriu demandas comerciais e distribuição de ordens para a fábrica, mantendo aderência ao plano de produção em 100\%
+    \item Reduziu riscos de ruptura na cadeia de suprimentos através de planejamento de expedição
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Set 2015-Set 2021}{Líder de Equipe}{Grupo Bertolini}{Colatina, ES, Brasil}{}{\vspace{1pt}
+\begin{itemize}
+    \item Liderou equipe de 40 pessoas no setor de transformação por 6 anos, com foco em segurança, qualidade e produtividade
 \end{itemize}}}
 
 \end{itemize}
@@ -110,18 +135,24 @@
 %     EDUCATION
 % ============================================================
 
-\section{Education}
+\section{Formação Acadêmica}
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2023-2024}{MBA em Estratégias de Negócios, Competitividade e Produtividade}{UNOPAR}{Brasil}{}{\vspace{1pt}
+Estratégia, competitividade e produtividade industrial.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2024}{MBA em Gestão Operacional e Logística Empresarial}{UNOPAR}{Brasil}{}{\vspace{1pt}
+Logística empresarial, gestão de operações.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{2020-2023}{Bacharelado em Administração}{UNOPAR}{Brasil}{}{\vspace{1pt}
+Administração de empresas.
 }}
 
 \end{itemize}
@@ -130,40 +161,20 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 %     LANGUAGES
 % ============================================================
 
-\section{Languages}
+\section{Idiomas}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Português (nativo), Inglês (intermediário / conversacional - B1/B2).
 \end{itemize}
 
 % ============================================================
 %     REFERENCES
 % ============================================================
 
-\section{References}
+\section{Referências}
 \vspace{1pt}
 \begin{itemize}
-\item{Available upon request.}
+\item{Disponíveis mediante solicitação.}
 \end{itemize}
 
 \end{document}

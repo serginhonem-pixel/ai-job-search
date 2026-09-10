@@ -14,28 +14,33 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Otimizador de Corte / Cutting Stock (Metalosa) - Resolução de Problemas Técnicos / Automação
+**S:** O processo de Slitter na Metalosa gerava um volume elevado de sucata de matéria-prima por falta de um método sistemático de otimização de corte.
+**T:** Como Coordenador de PCP, era responsável por reduzir o desperdício de material e o custo de produção do setor.
+**A:** Desenvolveu um otimizador de corte (Cutting Stock) próprio para o processo de Slitter, aplicando lógica de programação para maximizar o aproveitamento das bobinas.
+**R:** Reduziu em 20% a geração de sucata, equivalente a aproximadamente R$ 34.000,00 em matéria-prima economizada.
+**Use for:** "Conte sobre um problema técnico que você resolveu", "Como você usa dados para tomar decisões?", "Dê um exemplo de redução de custos"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Transição Make-to-Order para Make-to-Stock (Grupo Bertolini) - Planejamento Estratégico / Transformação de Processos
+**S:** O Grupo Bertolini operava sob um modelo make-to-order com lead times de entrega de no mínimo 70 dias, prejudicando a competitividade comercial.
+**T:** Como Analista de Planejamento, liderou o planejamento da transição para um modelo make-to-stock em todo o Brasil.
+**A:** Estruturou o novo modelo de planejamento de estoque, geriu a distribuição de ordens à fábrica e alinhou demandas comerciais ao novo fluxo produtivo, mantendo 100% de aderência ao plano de produção durante a transição.
+**R:** Reduziu o lead time de entrega de 70 dias para 14 dias em todo o Brasil.
+**Use for:** "Conte sobre uma mudança estratégica que você liderou", "Como você lida com projetos de grande escala?", "Dê um exemplo de melhoria de processo com impacto mensurável"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Renegociação de Fornecedores (Distribuidora Caite) - Negociação / Redução de Custos
+**S:** A Distribuidora Caite enfrentava custos operacionais elevados com insumos como GLP e sabão industrial, sem revisão recente de contratos.
+**T:** Como Coordenador de Frota e Manutenção, era responsável por controlar e reduzir os custos operacionais da frota e das instalações.
+**A:** Renegociou diretamente com fornecedores os contratos de GLP e sabão industrial, e antecipou a renegociação de contratos de diesel antes de reajustes de mercado previstos.
+**R:** Reduziu o custo do GLP em 34% (R$ 8,75 -> R$ 5,75/unidade), do sabão industrial em 78% (R$ 3.200 -> R$ 700/mês), e evitou um aumento de custo de aproximadamente R$ 0,56 por litro de diesel.
+**Use for:** "Conte sobre uma negociação bem-sucedida", "Como você reduz custos sem comprometer a operação?", "Dê um exemplo de proatividade"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 4. Painel Comercial-PCP (Metalosa) - Colaboração Multifuncional / Automação de Dados
+**S:** A comunicação entre as áreas comercial e produção na Metalosa era descentralizada, com solicitações de 6 pessoas gerando um tempo de resposta de até 2 dias.
+**T:** Como Coordenador de PCP, precisava eliminar o gargalo de comunicação entre comercial e produção.
+**A:** Implantou um painel Comercial-PCP que centralizou todas as solicitações em um único fluxo, e automatizou sua atualização via exportação agendada do ERP, eliminando o trabalho manual de atualização de planilhas.
+**R:** Reduziu o tempo de resposta entre comercial e produção de 2 dias para 2 horas.
+**Use for:** "Conte sobre como você melhorou a comunicação entre áreas", "Como você usa automação no seu trabalho?", "Dê um exemplo de iniciativa própria"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
